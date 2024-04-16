@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;600&family=Poppins&display=swap')
+
+
+*{
+    padding:0;
+    margin:0;
+    family=Poppins&display=swap
+}
+
+body {
+    background-color: black;
+}
+
+.main{
+    background-image: url("image/background.webp");
+    background-position: center center;
+    background-size: max(860px ,100vw) ;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+} 
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.76;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+     margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+   color: rgb(146, 15, 15);
+   width: 124px;
+   position: relative;
+   z-index: 10;
+}
+nav button{
+    position: relative;
+   z-index: 10;
+}
+.hero{
+    @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+    color: white;
+    height: calc(100% - 62px);
+    justify-content: center;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    gap: 18px;
+    padding: 0  30px;
+}
+.hero>  :nth-child(1)
+{ 
+    font-weight: bolder;
+    font-size : 48px;
+    text-align: start;
+}
+.hero>  :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: start;
+}
+.hero> :nth-child(3){
+    color:rgb(164, 160, 160);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: start;
+}
+
+.separation{
+    height: 04px;
+    background-color: rgb(46, 45, 45);
+} 
+.btn {
+    border: 1px solid rgba(280, 280,288, 0.5);
+    font-size: 15px;
+    border-radius: 4px;
+    color: rgb(224, 219, 219);
+    font-weight: 100;
+    padding: 5px 29px;
+    background-color: rgba(23, 23,23, 0.2);
+}
+.main input{
+    color: white;
+    border: 1px solid rgba(280, 280,288, 0.3) ;
+    font-weight: 549 ;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 10px  18px;
+    background-color: rgba(23, 23,23, 0.2);
+}
+
+.hero-buttons{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 12px;
+
+}
+.btn-red{
+    font-weight: 500;
+    border: 1px;
+    border-radius: 4px;
+    background-color: red;
+    padding: 10px 18px;
+    font-size: 14px;
+    color: white;
+}
+.btn-red-sm{
+    border: 1px;
+    border-radius: 4px;
+    background-color: red;
+    padding: 6px 17px;
+    color: white;
+}
+.head-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.first{
+    margin: auto;
+    color: white;
+    height: calc(100% - 62px);
+    justify-content: center;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    gap: 18px;
+    padding: 0 , 30px;
+}
